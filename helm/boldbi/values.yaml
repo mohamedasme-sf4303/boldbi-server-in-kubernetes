@@ -231,8 +231,8 @@ instanceConfig:
     replicaCount: 1
     minReplicas: 1
     maxReplicas: 20
-    cpuResourceRequests: 250m
-    memoryResourceRequests: 750Mi
+    cpuResourceRequests: 150m
+    memoryResourceRequests: 550Mi
   - app: id-ums
     replicaCount: 1
     minReplicas: 1
@@ -243,20 +243,20 @@ instanceConfig:
     replicaCount: 1
     minReplicas: 1
     maxReplicas: 20
-    cpuResourceRequests: 250m
-    memoryResourceRequests: 750Mi
+    cpuResourceRequests: 150m
+    memoryResourceRequests: 550Mi
   - app: bi-api
     replicaCount: 1
     minReplicas: 1
     maxReplicas: 20
-    cpuResourceRequests: 250m
-    memoryResourceRequests: 750Mi
+    cpuResourceRequests: 150m
+    memoryResourceRequests: 550Mi
   - app: bi-jobs
     replicaCount: 1
     minReplicas: 1
     maxReplicas: 1
-    cpuResourceRequests: 250m
-    memoryResourceRequests: 750Mi
+    cpuResourceRequests: 150m
+    memoryResourceRequests: 550Mi
   - app: bi-dataservice
     replicaCount: 1
     minReplicas: 1
@@ -267,20 +267,20 @@ instanceConfig:
     replicaCount: 1
     minReplicas: 1
     maxReplicas: 20
-    cpuResourceRequests: 250m
-    memoryResourceRequests: 750Mi
+    cpuResourceRequests: 150m
+    memoryResourceRequests: 550Mi
   - app: bold-ai
     replicaCount: 1
     minReplicas: 1
     maxReplicas: 20
-    cpuResourceRequests: 250m
-    memoryResourceRequests: 750Mi
+    cpuResourceRequests: 150m
+    memoryResourceRequests: 550Mi
   - app: bold-mcp
     replicaCount: 1
     minReplicas: 1
     maxReplicas: 20
-    cpuResourceRequests: 250m
-    memoryResourceRequests: 750Mi
+    cpuResourceRequests: 150m
+    memoryResourceRequests: 550Mi
 
 service:
   type: ClusterIP
